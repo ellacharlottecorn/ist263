@@ -1,0 +1,38 @@
+
+body {font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+    color: DarkCyan;
+    font-size: 36px;
+}
+
+h2, caption {
+    color: DarkCyan;
+    font-size: 27px;
+}
+
+h3 {
+    color: #005252;
+    font-size: 22px;
+}
+
+tr {
+    background-color: lavender;
+}
+.evenrow {
+    background-color: lavenderblush;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {border: 2px solid #005252;}
+
+th, td {
+    padding: 5px;
+}
+th {
+    color: #005252;
+}
