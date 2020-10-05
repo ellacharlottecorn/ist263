@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="skills.html">Skills</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Contact</h1>
+        <h3>Ella Corn</h3>
+        <p>505 Walnut Ave<br>Syracuse NY, 13210</p>
+        <a href="https://www.linkedin.com/in/ella-c-corn/" target="_blank">My LinkedIn Profile</a>
+        <a href="https://www.linkedin.com/in/ella-c-corn/">
+            <img src="../images/logo-sized.png" alt="linkedin logo">
+        </a>
+        <br>
+        <a href="mailto:eccorn@syr.edu">Email Me!</a> <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.756469600322!2d-76.13400308471782!3d43.04655517914676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a761bd0b81%3A0x2b9129d843ac90a9!2s505%20Walnut%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599511233820!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <br><br>
+        <h3>Contact Me</h3>
+        <form action="mailto:eccorn@syr.edu" method="post">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" name="userName"> <br> <br>
+            <label for="relationship">How do we know eachother:</label>
+            <select id="relationship" name="relationship">
+              <option value="family">Family</option>
+              <option value="school">School</option>
+              <option value="work">Work</option>
+              <option value="judaism">URJ / NFTY</option>
+              <option value="voulenteering">Voulenteering</option>
+              <option value="other" selected>other</option>
+            </select> <br><br>
+            <label for="message">Enter Your Message:</label><br>
+            <textarea id="message" name="message" rows="10" cols="30">Type Message Here</textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    
+    </body>
+    
+</html>

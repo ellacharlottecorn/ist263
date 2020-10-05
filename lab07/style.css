@@ -1,0 +1,55 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #F4976C;
+}
+
+h1, h2, h3 {
+    color: #303C6C;
+}
+
+caption {
+    color: #303C6C;
+    padding: 10px;
+    font-size: 27px;
+}
+
+nav {
+    background-color: #F8D763;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #6475B9;
+}
+
+nav a:hover {
+    background-color: #EDB5BF;
+    padding: 10px;
+}
+
+p {
+    color: #FBF4DA;
+}
+
+li {
+    color: #FBF4DA;
+}
+
+tr {
+    background-color: #F8D763;
+}
+.evenrow {
+    background-color: #99CED3;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {border: 2px solid #303C6C;}
+
+th, td {
+    padding: 5px;
+    color: #303C6C;
+}
