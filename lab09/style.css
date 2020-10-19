@@ -1,0 +1,113 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #D98984;
+}
+
+h1, h2, h3 {
+    color: #3C5263;
+}
+
+caption {
+    color: #3C5263;
+    padding: 10px;
+    font-size: 27px;
+}
+
+.menu {
+    color: #F8EED6;
+}
+
+nav {
+    background-color: #3C5263;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #6475B9;
+}
+
+nav a:hover {
+    background-color: #EDB5BF;
+    padding: 10px;
+}
+
+p {
+    color: #F8EED6;
+}
+
+li {
+    color: #F8EED6;
+}
+
+tr {
+    background-color: #A6BAC9;
+}
+.evenrow {
+    background-color: #9AD2FE;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {border: 2px solid #303C6C;}
+
+th, td {
+    padding: 5px;
+    color: #303C6C;
+}
+
+.copywrite {
+    float: left;
+    font-size: small;
+}
+
+.quote {
+    float: right;
+    font-size: small;
+}
+
+.crib {
+    float: left;
+    margin-right: 25px;
+}
+
+.clear {clear: both;}
+
+.firstrow {
+    background-color: #BAAEC1;
+    padding: 20px;
+    border-radius: 1em;
+    ;
+}
+
+.address {
+    float: left;
+    margin-right: 30px;
+}
+
+.mail {}
+
+.secondrow {
+    display: flex;
+    background-color: #93809D;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+.map {
+    flex: 1;
+    padding: 20px;
+}
+
+.emailform {
+    flex: 1;
+    padding: 20px;
+    background-color: #E7B5B1;
+    border-radius: 1em;
+}
+
+label {
+    color: #352C3A;
+}
