@@ -32,6 +32,11 @@ nav a:hover {
     padding: 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+    nav a {width: 100%;}
+    .firstrow {background-color: green;}
+}
+
 p {
     color: #F8EED6;
 }
@@ -71,6 +76,7 @@ th, td {
 .crib {
     float: left;
     margin-right: 25px;
+    max-width: 100%;
 }
 
 .clear {clear: both;}
@@ -94,6 +100,7 @@ th, td {
     background-color: #93809D;
     padding: 20px;
     border-radius: 1em;
+    flex-wrap: wrap;
 }
 
 .map {
