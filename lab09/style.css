@@ -33,8 +33,8 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-    nav a {width: 100%;}
-    .firstrow {background-color: green;}
+    nav a {width: 100%; display: block; padding: 10px;}
+    .line {display: none;}
 }
 
 p {
