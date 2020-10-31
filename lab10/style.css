@@ -1,6 +1,6 @@
 body {
     font-family: Tahoma, Geneva, sans-serif;
-    background-color: #D98984;
+    background-color: #FFD6D6;
 }
 
 h1, h2, h3 {
@@ -38,11 +38,11 @@ nav a:hover {
 }
 
 p {
-    color: white;
+    color: #6A5973;
 }
 
 li {
-    color: white;
+    color: #6A5973;
 }
 
 tr {
@@ -66,13 +66,13 @@ th, td {
 .copywrite {
     float: left;
     font-size: small;
-    color: white;
+    color: #6A5973;
 }
 
 .quote {
     float: right;
     font-size: small;
-    color: white;
+    color: #6A5973;
 }
 
 .crib {
@@ -84,22 +84,30 @@ th, td {
 .clear {clear: both;}
 
 .firstrow {
-    background-color: #A6BAC9;
-    padding: 20px;
+    background-color: #895870;
+    padding: 25px;
     border-radius: 1em;
-    ;
 }
 
 .address {
     float: left;
     margin-right: 30px;
+    color: #E6EAF0;
+}
+
+.contactname {
+    color: #E6EAF0;
 }
 
 .adtxt {
-    color: #3C5263;;
+    color: #E6EAF0;
 }
 
 .mail {}
+
+.link {
+    color: #E6EAF0;
+}
 
 .secondrow {
     display: flex;
