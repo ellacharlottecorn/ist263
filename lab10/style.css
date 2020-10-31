@@ -1,0 +1,126 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #D98984;
+}
+
+h1, h2, h3 {
+    color: #3C5263;
+}
+
+caption {
+    color: #3C5263;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.menu {
+    color: #F8EED6;
+}
+
+nav {
+    background-color: #3C5263;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #6475B9;
+}
+
+nav a:hover {
+    background-color: #EDB5BF;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav a {width: 100%; display: block; padding: 10px;}
+    .line {display: none;}
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+tr {
+    background-color: #A6BAC9;
+}
+.evenrow {
+    background-color: #9AD2FE;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+table, th, td {border: 2px solid #303C6C;}
+
+th, td {
+    padding: 5px;
+    color: #303C6C;
+}
+
+.copywrite {
+    float: left;
+    font-size: small;
+    color: white;
+}
+
+.quote {
+    float: right;
+    font-size: small;
+    color: white;
+}
+
+.crib {
+    float: left;
+    margin-right: 25px;
+    max-width: 100%;
+}
+
+.clear {clear: both;}
+
+.firstrow {
+    background-color: #A6BAC9;
+    padding: 20px;
+    border-radius: 1em;
+    ;
+}
+
+.address {
+    float: left;
+    margin-right: 30px;
+}
+
+.adtxt {
+    color: #3C5263;;
+}
+
+.mail {}
+
+.secondrow {
+    display: flex;
+    background-color: #93809D;
+    padding: 20px;
+    border-radius: 1em;
+    flex-wrap: wrap;
+}
+
+.map {
+    flex: 1;
+    padding: 20px;
+}
+
+.emailform {
+    flex: 1;
+    padding: 20px;
+    background-color: #E7B5B1;
+    border-radius: 1em;
+}
+
+label {
+    color: #352C3A;
+}
